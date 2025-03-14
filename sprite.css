@@ -1,34 +1,35 @@
-*{
-    padding: 0;
+*{ 
     margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 body{
     width: 100vw;
     height: 100vh;
-    display: flex;
+    display: grid;
     flex-direction: column;
-    background: linear-gradient(#CF2425,#da6062 50%,#da6062 60%,#da3b3f);
+    background-color: linear-gradient(#0000ff,#008000 50%, #90ee90 60%, #8fbc8f);
 }
-header, footer {
+header, footer{
     height: 100px;
-    
-    color:#FFFFFF;
-    display: flex;
+    color: #FFFFFF;
+    display: grid;
     align-items: center;
     justify-content: space-between;
     padding: 0 20px;
+    background-color: green;
+
 }
 main{
     flex-grow: 1;
-    display: flex;
+    background-color: green;
+    display: grid;
     justify-content: center;
     align-items: center;
-
 }
 header{
     height: 100px;
-    display: flex;
+    display: grid;
     align-items: center;
     gap: 24px;
     color: #FFFFFF;
@@ -40,11 +41,11 @@ header span{
 }
 main{
     flex-grow: 1;
-    display: flex;
+    display: grid;
     justify-content: center;
     align-items: center;
 }
- .background-logo {
+.background-logo{
     position: absolute;
     width: 100%;
     max-height: 100%;
@@ -54,52 +55,49 @@ main{
     right: 0;
     bottom: 0;
     z-index: -1;
- }
- .content-text {
+}
+.content-text{
     position: absolute;
     color: #FFFFFF;
     font-size: 2.5rem;
     width: 240px;
     transform: translateX(-100%);
     text-align: end;
- }
- .content-image {
+}
+.content-image{
     height: 65vh;
- }
- footer{
+}
+footer{
     height: 100px;
-    display: flex;
+    display: grid;
     justify-content: space-between;
     align-items: center;
     padding-right: 75px;
     padding-left: 75px;
     color: #FFFFFF;
     font-weight: 100;
- }
- footer div{
+}
+footer div{
     width: 64px;
- }
- @media (max-widht:768px) {
-    header{  
+}
+@media (max-widht:768px){
+    header{
         padding-left: 25px;
     }
- 
- 
- .content-text{
+.content-text{
     transform: translateX(0%);
     top: 80px;
     font-size: 1rem;
     width: 100px;
     text-align: center;
- }
-
- .content-image{
+}
+.content-image{
     height: 70vh;
- }
- footer{
-    padding: 0px 25px;
- }
+}
+footer{
+    padding: 0 25px;
+}
 }
 a{
-   color: #FFFFFF;
+    color: #FFFFFF;
 }
