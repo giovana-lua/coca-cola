@@ -12,7 +12,6 @@ body{
 }
 header, footer {
     height: 100px;
-    
     color:#FFFFFF;
     display: flex;
     align-items: center;
